@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../Montserrat.ttf);
+}
+
+body {
+    background-image: url(../Imagenes/FONDO\ WEB.png);
+}
+
+body h2 {
+    font-size: 50px;
+}
+
+main h3 {
+    font-size: 40px;
+}
+
+body div p {
+    font-size: 20px;
+}
+
+main p {
+    font-size: 20px;
+}
+
+section #tarjeta:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 9px 28px 3px rgb(0, 0, 0);
+}
+
+h1, h3, span {
+    transition: 1s linear;
+}
